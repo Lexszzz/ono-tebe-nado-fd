@@ -289,7 +289,7 @@ button {
 .about__title {
   font-size: 40px;
   text-transform: uppercase;
-  margin: 107px 0px 100px 0px;
+  margin: 107px 0 100px 0;
 }
 
 .about__text {
@@ -306,7 +306,7 @@ button {
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: start;
   align-items: start;
-  padding: 0px 50px 82px 50px;
+  padding: 0 50px 82px 50px;
 }
 
 .footer__adress {
@@ -329,7 +329,7 @@ button {
 }
 
 .footer__menu_list {
-  margin: 5px 0px 0px 0px;
+  margin: 5px 0 0 0;
   padding: 0px;
   text-align: center;
   list-style: none;
