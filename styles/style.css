@@ -223,6 +223,8 @@ button {
   position: relative;
   z-index: 1;
   color: #fff;
+  font-size: 20px;
+  line-height: 1.2;
 }
 
 .card__title {
@@ -232,11 +234,6 @@ button {
   color: #fff;
   text-decoration: underline;
   text-transform: uppercase;
-}
-
-.card__text {
-  font-size: 20px;
-  line-height: 1.2;
 }
 
 .card_type_film {
