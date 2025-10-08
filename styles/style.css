@@ -199,7 +199,8 @@
   justify-content: space-between;
   height: 100%;
   padding: 50px 40px;
-  background-size: cover;
+  /*при значении background-size: cover, которое просили использовать в ТЗ, картинка фона не совсем совпадала с макетом. выставил значение вручную чтобы максимально подогнать под макет*/
+  background-size: 165% 100%;
   background-position: center;
   z-index: 0;
 }
@@ -226,15 +227,12 @@
 
 .card_type_film {
   background-image: url("../images/card-lot-01.jpg");
-  background-size: 165% 100%;
 }
 .card_type_book {
   background-image: url("../images/card-lot-02.jpg");
-  background-size: 165% 100%;
 }
 .card_type_picture {
   background-image: url("../images/card-lot-03.jpg");
-  background-size: 165% 100%;
 }
 
 .lots__look-more-link {
